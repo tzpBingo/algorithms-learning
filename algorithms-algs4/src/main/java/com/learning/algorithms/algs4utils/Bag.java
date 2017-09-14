@@ -112,6 +112,7 @@ public class Bag<Item> implements Iterable<Item> {
     private class ListIterator<Item> implements Iterator<Item> {
         private Node<Item> current;
 
+
         public ListIterator(Node<Item> first) {
             current = first;
         }
